@@ -2,6 +2,8 @@
 
 A tool for installing or upgrading an existing go installation written in rust 🔥
 
+<img src="assets/demo.gif" />
+
 The only thing this do is follow the steps described at 
 [Go Installation](https://go.dev/doc/install).
 It is definitely not a replacement for a 
@@ -106,7 +108,7 @@ development computer. By default, DEBUG verbose level logging is enabled.
 ## TODO 📝
 
 - [x] Implement a working version of the tool
-- [ ] Add a demo to the README.md
+- [x] Add a demo to the README.md
 - [ ] Clean up the code 🧹
 - [ ] Automate QA 🤖
 - [ ] Make shell PATH export configurable 🔧
