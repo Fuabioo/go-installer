@@ -1,0 +1,15 @@
+[package]
+name = "go-installer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fabio Mora <hello@fabiomora.dev>"]
+
+[dependencies]
+env_logger = "0.11.6"
+structopt = "0.3.24"
+reqwest = { version = "0.12.12", features = ["blocking"] }
+log = "0.4.14"
+flate2 = "1.0.20"
+tar = "0.4.26"
+defer = "0.2.0"
+dirs = "3.0.2"
