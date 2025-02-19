@@ -114,3 +114,4 @@ development computer. By default, DEBUG verbose level logging is enabled.
 - [ ] Make shell PATH export configurable 🔧
 - [ ] Automate the release process 🚀
 - [ ] Build multi-arch binaries 🏗️
+- [ ] Get the latest version automagically 🪄
