@@ -4,7 +4,7 @@ A tool for installing or upgrading an existing go installation written in rust ð
 
 <img src="assets/demo.gif" />
 
-The only thing this do is follow the steps described at 
+The only thing this does is follow the steps described at 
 [Go Installation](https://go.dev/doc/install).
 It is definitely not a replacement for a 
 package manager or manual installation. It is intended for developers who 
