@@ -109,6 +109,7 @@ development computer. By default, DEBUG verbose level logging is enabled.
 
 - [x] Implement a working version of the tool
 - [x] Add a demo to the README.md
+- [ ] Ask for confirmation before committing ❓
 - [ ] Clean up the code 🧹
 - [ ] Automate QA 🤖
 - [ ] Make shell PATH export configurable 🔧
