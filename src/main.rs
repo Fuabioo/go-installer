@@ -40,7 +40,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let opt = Opt::from_args();
 
     let arch = opt.arch.unwrap_or_else(|| "amd64".to_string());
-    let version = opt.version.unwrap_or_else(|| "1.24.0".to_string());
+    let version = opt.version.unwrap_or_else(|| "1.24.2".to_string());
     let os = opt.os.unwrap_or_else(|| "linux".to_string());
     let install_path = opt
         .install_path
