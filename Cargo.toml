@@ -7,7 +7,10 @@ authors = ["Fabio Mora <hello@fabiomora.dev>"]
 [dependencies]
 env_logger = "0.11.6"
 structopt = "0.3.24"
-reqwest = { version = "0.12.12", features = ["blocking"] }
+reqwest = { version = "0.12.12", default-features = false, features = [
+    "rustls-tls",
+    "blocking",
+] }
 log = "0.4.14"
 flate2 = "1.0.20"
 tar = "0.4.26"
